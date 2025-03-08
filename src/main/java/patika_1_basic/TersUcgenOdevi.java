@@ -12,6 +12,10 @@ public class TersUcgenOdevi
         // Yıldızları ters üçgen şeklinde yazdırmak için döngü
         for (int i = sayi; i > 0; i--) {
             // Her satırda 'i' kadar yıldız yazdırıyoruz
+            //Dış Döngü (for i): Başlangıçta i = basamakSayisi olacak ve her adımda bir azalacak.
+            // Bu dış döngü, her bir satırın kaç yıldız içereceğini belirler.
+            //İç Döngü (for j): i kadar yıldız yazdırır. Yani, dış döngüdeki her iterasyonda,
+            // iç döngüde yıldızların sayısı değişir.
             for (int j = 0; j < i; j++) {
                 System.out.print("*");
             }
